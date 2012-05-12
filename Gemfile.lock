@@ -168,6 +168,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  activeresource
   annotate (~> 2.4.1.beta)
   bcrypt-ruby (= 3.0.1)
   bootstrap-sass (= 2.0.0)
@@ -186,4 +187,4 @@ DEPENDENCIES
   sass-rails (= 3.2.4)
   sqlite3 (= 1.3.5)
   uglifier (= 1.2.3)
-  win32console (= 1.3.0)
+  win32console

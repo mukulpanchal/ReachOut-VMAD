@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.2'
 gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'activeresource'
 
 group :development do
   gem 'sqlite3', '1.3.5'
@@ -26,7 +27,7 @@ group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-fchange', '0.0.5'
   gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.0'
+  gem 'win32console'
   gem 'factory_girl_rails', '1.4.0'
   gem 'cucumber-rails', '1.2.1'
   gem 'database_cleaner', '0.7.0'
